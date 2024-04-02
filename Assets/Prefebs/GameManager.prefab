@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1232430825871822657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6272305319154463598}
+  - component: {fileID: 7272327096277834733}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6272305319154463598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232430825871822657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7272327096277834733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232430825871822657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314fe0b8b256c064fb447e834499266d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Balls: {fileID: 1930791933011316770, guid: eb1f9c9e49519634582efffe43fa68a5, type: 3}
+  WonText: {fileID: 4763173142733899999, guid: 3b867982b53ad664b9c6fc1f47b6acc2, type: 3}
+  RestartButton: {fileID: 3616802632893649458, guid: 61514af00b353b34081aeb4f83c6bffd, type: 3}
+  NextButton: {fileID: 7851796162870061533, guid: 9dfd2538975ca7642bca17308a5b6b3f, type: 3}
+  QuitButton: {fileID: 4996084542273705657, guid: 47ba39e70717cd14980a9f50e4d48c4b, type: 3}
+  CrossImage: {fileID: 2070436566149645908, guid: 1d0341edf310ef641968283d6e7222d7, type: 3}
